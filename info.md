@@ -1,21 +1,21 @@
 # Инструкция по работе с git репозиторием
 
 ## Для начала работы
-git init
+>git init
 
 Если имя пользователя и почта еще не были заданы:
 
-git config --global user.name
+>git config --global user.name
 
-git config --global user.email
+>git config --global user.email
 
 
 ## Работа с файлами:
 Для того чтобы добавить файл, нужно:
-1. git add file_name
+1. >git add file_name
 
     добавляем файл с именем file_name для отслежевания
-2. git commit -m "some message"
+2. >git commit -m "some message"
 
     * добавлем текущие изменения в репозиторий и подписываем их с помощью тега -m
     * если добавить тег -a,то к коммиту добавяться все измененные файлы, которые уже отслеживались
