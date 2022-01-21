@@ -27,12 +27,15 @@ git config --global user.email
 
 
 ## Работа с коммитами
-Для того чтобы перейти к определенному коммиту можно использовать команду
-git checkout code_commit
-    code_commit - код коммита к которому хотим перейти, его можно посмотреть в git log
+Для того чтобы перейти к определенному коммиту можно использовать команду:
+> git checkout code_commit
+    code_commit
+ - код коммита к которому хотим перейти, его можно посмотреть в
+ >git log
 
 Чтобы вернуться к самому последнему состоянию:
-git checkout master
+> git checkout master
+
 ![winte](зима.jpg)
 
 
@@ -56,3 +59,5 @@ git checkout master
 
 Удаление с игнорированием ошибок:
 > git branch -D branch_name
+В случае конфликта нужно удалить все лишние строки и оставить ту часть, которая нам нужна. Если необходимо, то можно ее отрекдатировать.
+Click the Request Withdrawal button to confirm and sign.
